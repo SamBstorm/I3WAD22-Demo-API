@@ -7,6 +7,19 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Demo-BLL">
+      <HintPath>..\Demo-BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Demo-Common">
+      <HintPath>..\Demo-Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Demo-DAL">
+      <HintPath>..\Demo-DAL.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
